@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="navbar-logo">
         <img src={Logo} alt="" />
 
-        <h2>PL Interior and Exterior</h2>
+        <h2>PETER LOVE CONCEPT</h2>
       </div>
 
       <div className="navbar-link">

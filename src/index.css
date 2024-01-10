@@ -151,15 +151,15 @@ body {
   padding-bottom: 50px;
 }
 
-.hero-grid img {
-  width: 100%;
-  border-radius: 50%;
+.hero-grid video {
+  width: 500px;
+  height: 500px;
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
 }
 
 .hero-details {
@@ -194,10 +194,12 @@ body {
 /* DISPLAY */
 .display-container img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .display-container {
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 /* SERVICES */

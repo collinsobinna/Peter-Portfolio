@@ -81,6 +81,10 @@
     gap: 20px;
   }
 
+  .hero-grid video {
+    width: 100%;
+  }
+
   .hero-details a {
     padding: 20% 5%;
   }
@@ -186,8 +190,12 @@
     padding: 100px 20px;
   }
 
+  .hero-grid video {
+    width: 100%;
+  }
+
   .hero-grid {
-    gap: 40px;
+    gap: 50px;
   }
 
   .hero-details a {
